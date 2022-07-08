@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  font-family: Raleway, sans-serif;
+  height: 100%;
+  justify-content: center;
+  margin: 0;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+.btn {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn:disabled {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+  color: #333;
+}
+
+.box {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.error {
+  color: darkred;
+  font-weight: bold;
+}
+
+.link {
+  color: darkblue;
+  cursor: pointer;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px;
+  width: 550px;
+}
+
+.quote .text {
+  align-self: center;
+  font-size: 1.75em;
+  margin: 0;
+}
+
+.quote .author {
+  align-self: end;
+  margin: 10px 2px 0 0;
+}
+
+.quote .author::before {
+  content: '- ';
+}
+
+.quote .next {
+  align-self: end;
+  padding: 8px 18px;
+  margin: 20px 0 0 0;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+.message .action {
+  margin: 0 0.5em;
+}
